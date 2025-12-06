@@ -15,6 +15,7 @@
         <module>controller</module>
         <module>model</module>
         <module>share</module>
+        <module>main</module>
     </modules>
 
     <properties>
