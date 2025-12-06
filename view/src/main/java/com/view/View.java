@@ -9,7 +9,7 @@ public class View implements IView {
     @Override
     public void display(ICar car) {
         System.out.println("\n╔══════════════════════════════════════╗");
-        System.out.println("║      JACKYTOUCH CUSTOM GARAGE       ║");
+        System.out.println("║       JACKYTOUCH CUSTOM GARAGE       ║");
         System.out.println("╚══════════════════════════════════════╝\n");
 
         for (String line : car.getRenderedImage()) {
