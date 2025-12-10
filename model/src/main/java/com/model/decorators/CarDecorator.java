@@ -26,6 +26,14 @@ public abstract class CarDecorator implements ICar {
         }
     }
 
+    public void setBehavior(IBehavior behavior) {
+        this.behavior = behavior;
+    }
+
+    public ICar getDecoratedCar() {
+        return decoratedCar;
+    }
+
     private List<String> loadFile(String fileName) throws IOException {
         InputStream inputStream = getClass().getClassLoader().getResourceAsStream(fileName);
         if (inputStream == null) throw new IOException(fileName);
